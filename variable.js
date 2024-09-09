@@ -43,3 +43,15 @@ symbol -> to find and assign the uniqueness
 //console.log(typeof data);
 // undefined shows data tyoes as undefined ,  which is different from the normal behaviour of the data type
 // null shows data types as object , which is different from the normal behaviour of the data type
+
+
+//video -> 3
+//type casting 
+// datatype(data) _-> first letter should be in caps 
+
+/* if the input is  like 232cs in the number data type , 
+int this case if we check the data type of this inputed value it will
+ show its datatypes as number  but if we try to kprint the value of 
+ that variable next time it will show output as NaN(not a number)*/
+
+ 
