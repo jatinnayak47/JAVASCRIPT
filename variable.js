@@ -98,4 +98,53 @@ data types non primitive
     use n at last of a number to make it bigint data type
 
 */
+/*
+  video -> 7
 
+  there are two types of memory in js 
+  1. stack (Primitive)
+  2. heap( Non Primitive) -> in this we get the reference of the memory address
+
+  
+*/
+
+/* 
+ video -> 8
+
+ to print the variable we should use the back ticks `` it allows you for string interpretation
+ ex -> console.log(`Hello my name is ${variable name} and my repo count is ${variable name}`)
+  this method also allow you to use the diffrent method with the variable at the same time 
+
+
+*/
+
+/*
+ video -> 9
+    numbers and maths
+    toLocalString('en-IN') it is used for the currency precision coma
+*/
+
+
+/*
+  video -> 10
+  dates in js
+  it is used to repersent the single moment in time int a platform 
+  mydate = new Date() --> object of date type and data type of date is object
+  month in js start from 0
+
+  use of inbuit string function to get date in correctb format
+  1. toDateString()
+  2. toLocalString()
+
+time stamp in dates
+    mytimestamp = Date.now()
+    console.log(mytimestamp)
+    console.log(mytimestamp.getTime()) -> beacause the mytimestamp is a object
+    date have many built in function to utilize date
+
+
+    vvi method
+        bewdate.toLocalString('default',{
+        weekday : "long"
+        timeZone :  etc.....})
+*/
