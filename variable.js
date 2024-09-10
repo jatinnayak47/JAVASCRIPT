@@ -73,4 +73,29 @@
         unexpected at this place
 
 */
+/*
+ video -> 5 
+ comparision  
+ null > 0 --> false
+ null == 0 --> false
+ null >= 0 true 
+ js does not have a proper rule for the comparisioin operation ,
+  while comparison it convet the null to 0 but int the comparision
+   case number 2 its show output as false.
+
+   strict check -> ===
+   in the strict check it also checks the data types also .
+    
+
+*/
+
+/* 
+video -> 6
+data types non primitive
+
+1. reference type -> array , object , functions
+    symbol is used to provide a unique id to data or a variable even it have the same data types or same data in it .
+    use n at last of a number to make it bigint data type
+
+*/
 
