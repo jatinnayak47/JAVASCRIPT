@@ -192,7 +192,7 @@ time stamp in dates
 */
 
 /*
- video -> 13
+ video -> 13 && 14
  object  
 
     //singleton 
@@ -226,4 +226,66 @@ time stamp in dates
        
 */
 
+
+/*
+   video - 15 && 16
+    fucntion in js
+
+     function addtwonumber(number1 , number2) -> function decleration
+     {
+        console.log(number1 + nmuber2)
+     }
+      the above function is not returning anything
+     addtwonumbers(3 , 4) -> function call 
+
+     function addtwonumber(num1,num2)
+      {
+        let result = num1+ num2
+        return result
+      }
+      let result = addtwonumber(num1,num2)
+
+    function part -> 2
+
+    function calcartprice(...num1) ->> ... are the rest operators , it will combine all the input and form a array of the input.
+    {
+      return num1
+    }
+    console.log(calcartprice(200,300,400)) 
+
+    function calcartprice(val1,val2,...num1)
+    {
+      return num1;
+    }
+    console.log(calcartprice(200,300,400,500))
+
+    the output of thee num1 will be 400 and 500 because the 200 and 300 wil go to the val1 nad val2
+
+    handle object in function
+    
+    const user = {
+    username: "hitesh",
+    price: 199
+    }
+
+    function handleobject(anyobject)
+    {
+      console.log(`Username is ${anyobject.username} 
+      and the price is ${anyobject.price}`);
+    }
+    handleobject(user)
+
+    new method to create and pass object
+    handleObject({
+      username : "sam"
+      price : 1999
+    })
+
+    const myNewArray = [200,300,400,500]
+
+    function returnSecondValue(getArray){
+      return getArray[1];
+    }
+      console.log(returnSecondValue(mynewArray));
+*/
 
