@@ -143,8 +143,87 @@ time stamp in dates
     date have many built in function to utilize date
 
 
-    vvi method
-        bewdate.toLocalString('default',{
+        vvi method
+        newdate.toLocalString('default',{
         weekday : "long"
         timeZone :  etc.....})
 */
+/*
+ video -> 11
+ arrays 
+  
+ const myarray = [0,1,2,3,4,5,6] the element in the array can be different and are variable in the size
+ unshift -> its is a built in function which is used to add a element in the starting of the array 
+ shift -> its is a built in function which is used to dremkove the element from the starting
+
+ there are some function in js which is used to find the search about  the element in the data such as
+
+ includes(data) -> return the ans in boolean type
+ indexOf(data) -> return the index of element if persent or return -1 if not present
+
+ join() -> built in funcltion used to convert the array into string
+
+
+ slice -> it is used to slice the array from given index (start index , end index) in this method it does not include the last index
+
+ splice -> it is used to slice the array from given index (start index , end index) in this method it include the last index also
+
+ the main difference b/w slice and splice is that slice works on the copy / deep copy of the array which doe not effect the original array 
+ but splice works on the shallow copy of the array and also modify the original arrays 
+
+*/
+
+/*
+  video -> 12
+
+  array - 2
+
+  to add two array instead of using concat operator we can use spread meathod 
+  syntaax of spread operator is [...array1 name,...array2 name,...]
+
+  Returns a new array with all the sub array concatenated into it recursively up to the specific depth
+  array_name.flat(depth) ->  we use infinity here also to let the compiler find the last depth of the array 
+
+  convert the data to array 
+  Array.from(data) -> in case of primitive data type
+  Array.from({object}) ->  in this case need to mention that we have to  use key or the value to  make the array
+  Array.of(data1,data2,.......datan)o -> use to form array  using the different variable together to form an array
+
+*/
+
+/*
+ video -> 13
+ object  
+
+    //singleton 
+    //constructor method
+
+
+    Object.freez(object name)  -> it is used to freez the object which stops the object from getting modified
+
+     object.assign -> use to concatenate the objects.
+     can also use the spread method to concatenate
+
+     object part -> 2
+
+     object derefrencing
+
+     const course = {
+      coursename: "js in hindi"
+      price: 909
+      courseInstructor: "jatin"
+     }
+    
+     normal method to access the course data members is 
+     course.datamember -> course.courseInstructor
+
+     destructure method to access the values from the object
+
+     const {courseInsturctor} = course 
+     now we can dirctly access the courseInstructor 
+     we can also can create alis for the courseInstructor by following the below syntax
+      const {courseInstructor : alis  name} = course
+       
+*/
+
+
